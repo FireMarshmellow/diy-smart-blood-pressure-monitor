@@ -1,0 +1,9 @@
+secrets.h
+layout.json
+__pycache__/
+*.pyc
+.venv/
+build/
+.vscode/
+.DS_Store
+Thumbs.db
