@@ -16,7 +16,9 @@ project only reads the numbers off its screen.
 
 - AI-Thinker ESP32-CAM, plus a USB-serial adapter or ESP32-CAM-MB board to program it
 - A blood pressure monitor with a seven-segment LCD (built on the A&D UA-611)
-- A way to hold the camera still in front of the display (3D-printed bracket, tape, Blu Tack)
+- A way to hold the camera still in front of the display. The 3D-printable
+  camera arm from the video is in [`cad/Bpm_Cam_Arm.step`](cad/Bpm_Cam_Arm.step).
+  It's designed around the A&D UA-611, so other monitors will need it adapted.
 - Arduino IDE 2 with the **esp32** boards package 3.x
 - Python 3.9+ for the digit mapper
 
